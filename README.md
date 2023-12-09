@@ -18,9 +18,9 @@ Anaconda 공식 웹사이트에서 운영 체제에 맞는 Anaconda 버전을 �
 
 
 
-lua
-Copy code
+```bash
 conda create --name gpt_project python=3.8
+```
 
 이 명령은 `gpt_project`라는 이름의 새로운 가상 환경을 생성합니다.
 
@@ -33,8 +33,9 @@ conda create --name gpt_project python=3.8
 3. 가상 환경 활성화
 생성된 가상 환경을 활성화합니다:
 
-Copy code
+```bash
 conda activate gpt_project
+```
 
 ### 4. 필요한 패키지 설치
 
@@ -42,8 +43,9 @@ conda activate gpt_project
 
 
 
-Copy code
+```bash
 pip install jupyter notebook
+```
 
 ### 5. Jupyter Notebook 실행
 
@@ -51,8 +53,9 @@ pip install jupyter notebook
 
 
 
-Copy code
+```bash
 jupyter notebook
+```
 
 이 명령은 웹 브라우저에서 Jupyter Notebook을 엽니다.
 
@@ -64,9 +67,9 @@ GitHub 저장소의 내용을 로컬 시스템으로 복제합니다. 원하는 
 
 
 
-bash
-Copy code
+```bash
 git clone https://github.com/kwangilkimkenny/GPT-Quick-Start-Projects.git
+```
 
 ### 2. Jupyter Notebook에서 프로젝트 열기
 
